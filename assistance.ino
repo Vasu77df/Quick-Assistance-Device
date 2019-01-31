@@ -87,13 +87,13 @@ void runPublish(int sensorValue) {
   // Set Choreo inputs
  String MessageValue = "EMERGENCY PLEASE HELP Apt 109 Porur Square Apt, Chettiyar Agaram Road , Porur , Chennai -116";
   PublishChoreo.addInput("Message", MessageValue);
-StringTopicArnValue = "arn:aws:sns:us-west-2:114744827920:emergencybutton";
+StringTopicArnValue = "";
   PublishChoreo.addInput("TopicArn", TopicArnValue);
   String UserRegionValue = "us-west-2";
   PublishChoreo.addInput("UserRegion", UserRegionValue);
-  String AWSAccessKeyIdValue = "AKIAIDZY3VROE6SHQFAQ";
+  String AWSAccessKeyIdValue = "";
   PublishChoreo.addInput("AWSAccessKeyId", AWSAccessKeyIdValue);
-StringAWSSecretKeyIdValue="N8c8TZ+fqneme6VmfFHyBQOp4bEKLhvCRcGZqcPF";
+StringAWSSecretKeyIdValue="";
 PublishChoreo.addInput("AWSSecretKeyId", AWSSecretKeyIdValue);
 String SubjectValue = "Emergency";
   PublishChoreo.addInput("Subject", SubjectValue);
